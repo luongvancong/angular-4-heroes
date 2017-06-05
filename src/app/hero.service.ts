@@ -4,9 +4,7 @@ import { HEROES } from './mock-heroes';
 import 'rxjs/add/operator/toPromise';
 import { Http } from '@angular/http';
 
-
-
-// Có đoạn này thì mới sử dụng được dependency injection
+/* Có đoạn này thì mới sử dụng được dependency injection */
 @Injectable()
 
 export class HeroService {
